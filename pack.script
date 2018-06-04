@@ -1,0 +1,21 @@
+CREATE libvss.a
+
+ADDLIB libvio.a
+ADDLIB mpp/libmpi.a 
+ADDLIB mpp/libhdmi.a 
+ADDLIB mpp/libdpu_rect.a 
+ADDLIB mpp/libdpu_match.a 
+ADDLIB mpp/libVoiceEngine.a 
+ADDLIB mpp/libsecurec.a 
+ADDLIB mpp/libupvqe.a 
+ADDLIB mpp/libdnvqe.a 
+ADDLIB mpp/libisp.a
+ADDLIB mpp/libsns_imx477.a
+ADDLIB mpp/lib_hidrc.a
+ADDLIB mpp/lib_hiae.a
+ADDLIB mpp/lib_hiawb.a
+ADDLIB mpp/lib_hildci.a
+ADDLIB mpp/lib_hidehaze.a
+
+SAVE
+END

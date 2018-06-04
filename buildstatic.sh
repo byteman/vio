@@ -1,0 +1,2 @@
+ar -M < pack.script
+
